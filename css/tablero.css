@@ -1,0 +1,91 @@
+.tablero{
+	width: 560px;
+	height: 560px;
+	position: relative;
+	border: 5px solid;
+	margin-left:auto; 
+	margin-right: auto;
+	opacity:0.7;
+
+}
+body{
+	background-image: url('../img/madera.jpg');
+}
+
+.linea1{
+	top: 0px;
+}
+
+.linea2{
+	top: 70px;
+}
+.linea3{
+	top: 140px;
+}
+.linea4{
+	top: 210px;
+}
+.linea5{
+	top: 280px;
+}
+
+.linea6{
+	top: 350px;
+}
+.linea7{
+	top: 420px;
+}
+.linea8{
+	top:490px;
+}
+
+
+
+.col1{
+	left: 0px;
+}
+
+.col2{
+	left: 70px;
+}
+.col3{
+	left: 140px;
+}
+
+.col4{
+	left: 210px;
+}
+.col5{
+	left: 280px;
+}
+
+.col6{
+	left: 350px;
+}
+.col7{
+	left: 420px;
+}
+
+.col8{
+	left: 490px;
+}
+
+
+
+.tile{
+
+	width: 70px;
+	height: 70px;
+	position: absolute;
+}
+
+.black{
+
+	background-color: #555555;
+	font-size: 65px;
+
+}
+.white{
+	background-color: white;
+	font-size: 65px;
+}
